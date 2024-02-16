@@ -1,0 +1,38 @@
+/*Mike Mann
+Febraury*/
+
+header
+{
+    background-color: blue;
+}
+
+footer
+{
+    background-color: blue;
+}
+
+p, ul, li
+{
+    font-size: 20px;
+}
+
+a:hover
+{
+    color:bisque;
+}
+
+a:visited
+{
+    color: violet;
+}
+
+a:active 
+{
+    color: pink;
+}
+
+a:link
+{
+    color:aqua;
+}
+
