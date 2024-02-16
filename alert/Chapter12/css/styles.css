@@ -1,0 +1,38 @@
+/*Mike Mann*/
+/*February*/
+
+/**TARGETING CLASSES - 12.2 **/
+.intro
+{
+    font-size: 24px;
+    color: darkblue;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.highlight
+{
+    color: red;
+    
+}
+
+.highlight
+{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding: 5px;
+}
+
+/** ALERT CLASSES - VIDEO 12.3 **/
+.alert 
+{
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.alert.blue
+{
+    background: blue;
+}
