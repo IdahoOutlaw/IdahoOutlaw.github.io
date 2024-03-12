@@ -1,0 +1,53 @@
+/*Mike Mann
+Febraury*/
+
+header
+{
+   
+    background-color: #A8D6EB;
+}
+
+h1 {
+    
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+
+    font-size: 1.5em;
+    
+}
+
+section#value {
+
+    background-color: #aef0cc;
+
+}
+
+section#example {
+
+    background-color: #E3ADB9;
+
+}
+
+.none {
+
+    text-decoration: none;
+}
+
+.underline {
+
+    text-decoration: underline;
+}
+
+.overline {
+
+    text-decoration: overline;
+}
+
+.line-through {
+
+    text-decoration: line-through;
+}
