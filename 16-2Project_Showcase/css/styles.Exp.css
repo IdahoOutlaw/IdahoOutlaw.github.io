@@ -1,0 +1,177 @@
+/* css used to style experience.html */
+/*   display project examples        */
+
+h1 {
+    border-style: solid;
+    border-width: 8px;
+    border-color: red;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 15px;
+    
+    
+    text-align: center;
+
+
+}
+
+body {
+    border-style: solid;
+    border-width: 3px;
+    border-color: yellow;
+    border-radius: 30px;
+    background: blue;
+    color: #9f1b1b;
+    font-size: 1.25rem;
+
+}
+
+
+    .projectExamples {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .projectBox {
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        float: left;
+        margin: 10px;
+        text-align: center;
+        width: 31%;
+    }
+
+    .projectBox h4.semester {
+        background:#0a0aa033; 
+        color: #FFFFFF;
+        padding: 15px;
+    }
+
+    .projectBox img {
+        margin-bottom: 20px;
+    }
+
+    .projectBox a.button {
+        display: block;
+        width: 40%;
+        margin: 10px auto;
+        color: #FFFFFF;
+        background: #0707db33;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+
+    h1 {
+        color: tan;
+        
+    }
+
+
+    H2 {
+
+        color: tan;
+        margin-left: 20px;
+    }
+
+    ul {
+        color: orange;
+
+    }
+
+
+    p { 
+        color: whitesmoke;
+        margin-left: 10px;
+    }
+
+
+    nav {
+        color: whitesmoke;
+
+    }
+
+    nav a {
+        color: rgb(159, 142, 139)
+
+    }
+
+
+    footer {
+        clear: left;
+        padding-top: 240px;
+    }
+    
+
+    footer a {
+        color: orange;
+        font-style: italic;
+        font-weight: 800;
+        
+        
+    }
+
+
+    div#coding{
+        overflow:hidden;
+        display:flex;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+   
+
+    div#roadmaps {
+        border-style: solid;
+        border-radius: 15px;
+        border-color: orange;
+        border-width: 6px;
+        background-image: url("../images/small roadmaps.jpg");
+        padding-top: 90px;
+        padding-bottom: 4px;
+        padding-left: 3px;
+        padding-right: 5px;
+        margin-left: 25px;
+        text-align: center;
+        font-style: italic;
+        
+    }
+
+    div#monitor {
+        border-style: solid;
+        border-radius: 15px;
+        border-color: orange;
+        border-width: 6px;
+        background-image: url("../images/small monitors.jpg");
+        padding-top: 90px;
+        padding-bottom: 2px;
+          text-align: right;
+          padding-left: 3px;
+          margin-left: 20px;
+        padding-right: 10px;
+        font-style: italic;
+    }
+
+    div#sphere {
+        border-style: solid;
+        border-radius: 15px;
+        border-color: orange;
+        border-width: 6px;
+        background-image: url("../images/smallsphere.jpg");
+        padding-top: 90px;
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+       
+        font-style: italic;
+
+ 
+    }
+
+    
+
+    
