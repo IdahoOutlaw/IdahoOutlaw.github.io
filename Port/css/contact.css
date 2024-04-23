@@ -1,0 +1,60 @@
+/* Mike Mann */
+/* April 25, 2024 */
+
+@font-face {
+    font-family: jinky;
+    src: url(../Fonts/JINKY-webfont.woff);
+  }
+
+.banner {
+
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    
+}
+
+#contact_form  {
+
+    font-family: jinky;
+    font-size: 30px;
+    font-weight: 700;
+    width: 500px;
+    margin: 0 auto;
+
+    background-color: tan;
+
+
+    
+}
+
+#contact_form div.align_inputs div {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto; 
+    
+}
+
+.submit {
+
+    text-align: center;
+
+}
+
+input {
+
+    background-color: white;
+    transition: all 1s ease 0.5s ;
+    color: blueviolet;
+}
+
+input:focus {
+
+    background-color: orangered;
+    font-size: 1.2rem;
+}
+
+
+

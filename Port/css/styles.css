@@ -1,0 +1,115 @@
+/* Mike Mann */
+/* April 25, 2024 */
+
+
+
+
+header {
+    
+    
+    background-image: linear-gradient( #7c0000, #f80000);
+    display: flex;
+    
+}
+
+header div h5 {
+
+    text-align: center;
+    margin: -25px;
+}
+
+h1 {
+
+    margin-left: 20px;
+
+}
+
+nav {
+
+    flex-grow: 1;
+    
+
+}
+
+
+nav ul {
+
+    padding: 0;
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+
+nav a:link {
+    
+    font-family: "Abril Fatface", Tahoma, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    transform: rotate(-25deg);
+      
+    display: block;
+
+}
+
+nav a:visited {
+
+    color:black;
+
+}
+
+nav a:hover {
+
+    color:aliceblue;
+
+}
+
+nav a:active {
+
+    color:blue;
+
+}
+
+body {
+
+    margin: 0;
+
+}
+
+footer {
+    
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+
+    background-image: linear-gradient( #f80000, #7c0000);
+    
+}
+
+footer a {
+
+    color: #300B45;
+
+}
+
+span {
+
+    color: white;
+    font-weight: 600;
+}
+
+
+.copyright {
+
+    text-align: center;
+    
+}
+
+
+
+
