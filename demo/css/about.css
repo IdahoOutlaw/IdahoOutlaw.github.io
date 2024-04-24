@@ -1,0 +1,42 @@
+/* Mike Mann */
+/* April 25, 2024 */
+
+
+
+.banner {
+
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    
+}
+
+div#flexbox{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+
+}
+
+div#flexbox div {
+
+    background-image: linear-gradient( #f80000, #7c0000);
+    border: solid;
+    border-color: blue;
+    border-radius: 25px;
+    border-width: 4px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.align-center {
+
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
