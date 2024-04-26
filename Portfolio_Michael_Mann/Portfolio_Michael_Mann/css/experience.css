@@ -1,0 +1,48 @@
+/* Mike Mann */
+/* April 26, 2024 */
+
+
+/*TABLE STUFF ONLY CSS - EXPERIENCE PAGE */
+
+table {
+
+    float: right;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    text-align: center;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+td {
+
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+th {
+
+    border-style: solid;
+    border-width: 2px;
+    
+}
+
+table thead {
+
+    color: red;
+}
+
+tbody {
+
+    font-style: italic;
+}
+
+caption {
+
+    font-weight: bold;
+    color: blueviolet;
+}
+
+
