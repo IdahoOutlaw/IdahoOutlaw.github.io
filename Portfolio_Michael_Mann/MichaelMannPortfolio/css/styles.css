@@ -46,8 +46,10 @@ nav a:link {
     font-weight: 900;
     font-style: italic;
     font-size: 24px;
+    color: tan;
     transform: rotate(-25deg);     
     display: block;
+    
 }
 
 /*MAIN HEADER HOVER, VISITED, ACTIVE COLOR CHANGE LINKS*/
