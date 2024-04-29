@@ -1,0 +1,254 @@
+/* Mike Mann */
+/* April 26, 2024 */
+
+
+/*MAIN HEADER & FOOTER STOCK SETUP CSS - ALL PAGES*/
+
+header {
+    
+    
+    background-image: linear-gradient( #7c0000, #f80000);
+    display: flex;   
+}
+
+header div h5 {
+
+    text-align: center;
+    margin: -25px;
+}
+
+header h1 {
+
+    margin-left: 20px;
+    font-style: italic;
+}
+
+nav {
+
+    flex-grow: 1;
+}
+
+
+nav ul {
+
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+nav a:link {
+    
+    font-family: "Abril Fatface", Tahoma, serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 24px;
+    transform: rotate(-25deg);     
+    display: block;
+}
+
+/*MAIN HEADER HOVER, VISITED, ACTIVE COLOR CHANGE LINKS*/
+
+nav a:visited {
+
+    color:black;
+}
+
+nav a:hover {
+
+    color:aliceblue;
+}
+
+nav a:active {
+
+    color:blue;
+}
+
+body {
+
+    margin: 0;
+}
+
+main span {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+}
+
+.bold {
+    display: inline;
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+/*FOOTER CSS PART*/
+
+footer {
+    
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    background-image: linear-gradient( #f80000, #7c0000);  
+}
+
+footer a {
+
+    color: #300B45;
+}
+
+
+/*FOOTER CONTACT INFO & IMAGE PERMISSION FROM PIXABAY.COM*/
+
+footer span {
+
+    color: white;
+    font-weight: 600;
+}
+
+
+.copyright {
+
+    font-family: cursive;
+    font-weight: 800;
+    text-align: center;   
+}
+
+/* MAIN PAGE LAYOUT FOR LINKS(Home,About,Experience,Contact)*/
+
+.banner {
+
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;  
+}
+
+main h2 {
+
+    text-align: center;
+    font-style: italic;
+}
+
+main p {
+
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+
+
+/*INDEX CSS*/
+
+.gallery a {
+    color:blue;
+    font-weight: 800;
+ }  
+
+.textBox h2 {
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+.textBox p {
+    
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textBox span {
+    display: inline;
+    font-style: italic;
+    font-weight: 800;
+}
+
+/*ABOUT PAGE CSS*/
+
+div#flexbox{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+div#flexbox div {
+
+    background-image: linear-gradient( #f80000, #7c0000);
+    border: solid;
+    border-color: blue;
+    border-radius: 25px;
+    border-width: 4px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.align-center {
+
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+/*EXPERIENCE CSS SHEET IS A SEPARATE SHEET - DUE TO TABLE CSS CODING*/
+
+
+/*CONTACT CSS PAGE - CONTACT FORM TEMPLATE LINK CSS ONLY*/
+
+@font-face {
+    font-family: jinky;
+    src: url(../Fonts/JINKY-webfont.woff);
+  }
+
+
+#contact_form  {
+
+    font-family: jinky;
+    font-size: 30px;
+    font-weight: 700;
+    width: 500px;
+    margin: 0 auto;
+    background-color: tan; 
+}
+
+#contact_form div.align_inputs div {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto; 
+}
+
+.submit {
+
+    text-align: center;
+}
+
+input {
+
+    background-color: white;
+    transition: all 1s ease 0.5s;
+    color: blueviolet;
+}
+
+input:focus {
+
+    background-color: orangered;
+    font-size: 1.2rem;
+}
+
+
+
